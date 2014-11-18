@@ -1,5 +1,6 @@
 body {
   padding-top: 130px;
+  background-image: url("/img/bg/bg.png");
 }
 
 p {
@@ -23,4 +24,11 @@ p {
 
 .navbar-danger {
   border-color: #d0d0d0;
+}
+
+footer {
+  padding: 50px 0 20px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
 }
