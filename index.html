@@ -13,6 +13,7 @@
         <link href="css/ripples.min.css" rel="stylesheet">
         <link href="css/material-wfont.min.css" rel="stylesheet">
         <link href="css/min/css.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/social-button/zocial.css" />
         <!-- <link rel="stylesheet" href="css/normalize.css"> site -->
         <!-- <script src="js/modernizr.min.js"></script> site -->
     </head>
@@ -34,6 +35,9 @@
             <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="javascript:void(0)">Editoria Em Debate</a></li>
+                    <li><a href="/catalogo" target="_blank">Catálogo de Livros</a></li>
+                    <li><a href="http://www.periodicos.ufsc.br/index.php/emdebate" target="_blank">Revista Eletrônica</a></li>
+                    <li><a href="/galeria">Galeria Virtual</a></li>
                 </ul>
             </div>
         </div>
@@ -42,7 +46,20 @@
 
             <div class="apresenta text-center">
                 <img class="img-responsive" src="img/logo/logo.png" style="margin:0 auto;" />
+                <div class="texto-apresenta">
+                    <a href="/catalogo">Edição de Livros</a>, <a href="#">Revista Eletrônica</a> e <a href="/galeria">Galeria de Arte Virtual</a>
+                </div>
             </div>
+
+            <div class="bookshelf">
+            <iframe src="http://static.issuu.com/widgets/shelf/index.html?folderId=13c27994-fc4a-4b7c-97ba-ba4fc82672d1&amp;theme=theme1&amp;rows=2&amp;thumbSize=medium&amp;roundedCorners=false&amp;showTitle=true&amp;showAuthor=false&amp;shadow=true&amp;effect3d=true" width="100%" height="370" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            <div class="texto-bookshelf">
+                    <p><a href="/catalogo" class="zocial wordpress"> Leia todos no Catálogo Online</a>
+                    <a href="https://www.scribd.com/editoriaemdebate" class="zocial scribd">Leia todos no Scribd</a>
+                    <a href="https://issuu.com/editoriaemdebate" class="zocial instapaper">Leia todos no Issuu</a></p>
+                </div>
+             </div>
+
 
                     <div class="panel-group" id="accordion">
    <div class="panel panel-danger">
@@ -319,6 +336,8 @@ editoriaemdebate@gmail.com
   
   </div>
 
+
+
         <div class="row">
 
             <div class="col-lg-4"
@@ -383,9 +402,19 @@ editoriaemdebate@gmail.com
 
     </div>
 
-    <footer> <span class="clearfix" >Email: <a href="mailto:editoriaemdebate@gmail.com">editoriaemdebate@gmail.com</a></span> </footer>
+    <footer> <span class="clearfix" >Email: <a href="mailto:editoriaemdebate@gmail.com">editoriaemdebate@gmail.com</a></span> <p class="twitter-botao"><a href="https://twitter.com/editoriaemdebate" class="twitter-follow-button" data-show-count="false" data-lang="pt">Seguir @editoriaemdebate</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p> <div class="fb-like" data-href="https://www.facebook.com/editoriaemdebate" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div></footer>
 
         <!-- ends -->
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
         <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
