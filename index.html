@@ -22,7 +22,7 @@
 
         <!-- site -->
         
-        <div class="navbar navbar-danger navbar-fixed-top">
+        <div class="navbar navbar-danger navbar-fixed-top sample shadow-z-2">
             <div class="navbar-header">
                 <span class="navbar-text visible-xs-inline-block">Editoria Em Debate</span>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -35,21 +35,71 @@
             <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="javascript:void(0)">Editoria Em Debate</a></li>
-                    <li><a href="/catalogo" target="_blank">Catálogo de Livros</a></li>
-                    <li><a href="http://www.periodicos.ufsc.br/index.php/emdebate" target="_blank">Revista Eletrônica</a></li>
-                    <li><a href="/galeria">Galeria Virtual</a></li>
+                    <li><a href="pg-catalogo.html">Catálogo de Livros</a></li>
+                    <li><a href="pg-revista.html">Revista Eletrônica</a></li>
+                    <li><a href="pg-galeria.html">Galeria Virtual</a></li>
                 </ul>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container fundo-container sample shadow-z-2">
 
             <div class="apresenta text-center">
-                <img class="img-responsive" src="img/logo/logo.png" style="margin:0 auto;" />
+                <a href="http://www.editoriaemdebate.ufsc.br"><img class="img-responsive" src="img/logo/logo.png" style="margin:0 auto;" /></a>
                 <div class="texto-apresenta">
-                    <a href="/catalogo">Edição de Livros</a>, <a href="http://www.periodicos.ufsc.br/index.php/emdebate" target="_blank">Revista Eletrônica</a> e <a href="/galeria">Galeria de Arte Virtual</a>
+                    <a href="pg-catalogo.html">Catálogo de Livros</a>, <a href="pg-revista.html">Revista Eletrônica</a> e <a href="pg-galeria.html">Galeria Virtual</a>
                 </div>
             </div>
+
+            <div class="slides">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              </ol>
+             
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <a href="pg-lancamentos.html"><img src="img/slides/2014/lancamento2014.jpg" alt="..."></a>
+                  <div class="carousel-caption">
+                      <h3> </h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="pg-catalogo.html"><img src="img/slides/2014/livros2014.jpg" alt="..."></a>
+                  <div class="carousel-caption">
+                      <h3> </h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="pg-revista.html"><img src="img/slides/2014/revista2014.jpg" alt="..."></a>
+                  <div class="carousel-caption">
+                      <h3> </h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="pg-galeria.html"><img src="img/slides/2014/galeria2014.jpg" alt="..."></a>
+                  <div class="carousel-caption">
+                      <h3> </h3>
+                  </div>
+                </div>
+              </div>
+             
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div> <!-- Carousel -->
+          </div>
+
+            <div class="destaques"><h3>Conheça nossas publicações:</h3></div>
 
             <div class="bookshelf">
             <iframe src="http://static.issuu.com/widgets/shelf/index.html?folderId=13c27994-fc4a-4b7c-97ba-ba4fc82672d1&amp;theme=theme1&amp;rows=2&amp;thumbSize=medium&amp;roundedCorners=false&amp;showTitle=true&amp;showAuthor=false&amp;shadow=true&amp;effect3d=true" width="100%" height="370" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
@@ -78,6 +128,7 @@
             <li><a href="#links" data-toggle="tab">Links</a></li>
             <li><a href="#apoio" data-toggle="tab">Apoio</a></li>
             <li><a href="#contato" data-toggle="tab">Contato</a></li>
+            <li><a href="#lancamentos" data-toggle="tab">Lançamentos</a></li>
         </ul>
 
         <div id="myTabContent" class="tab-content">
@@ -246,6 +297,7 @@ www.editoriaemdebate.ufsc.br
 www.lastro.ufsc.br
 editoriaemdebate@gmail.com
                         </p>
+                        <!-- form no
                         <form class="form-horizontal">
                             <fieldset>
                                 <legend>Legend</legend>
@@ -325,6 +377,20 @@ editoriaemdebate@gmail.com
                                 </div>
                             </fieldset>
                         </form>
+                      -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="lancamentos">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="sample2">
+  <a href="pg-lancamentos.html"><button class="btn btn-primary btn-raised">2011</button></a>
+    <button class="btn btn-primary btn-raised">2012</button>
+      <button class="btn btn-primary btn-raised">2013</button>
+        <button class="btn btn-primary btn-raised">2014</button>
+</div>
                     </div>
                 </div>
             </div>
@@ -350,7 +416,7 @@ editoriaemdebate@gmail.com
                         </div>
                         <div class="panel-body">
                             <p>Aqui se reúnem pesquisadores que criaram um espaço próprio, autônomo, e ao mesmo tempo público, no sentido do compromisso e do livre acesso. Os livros e coletâneas que estão disponibilizados virtualmente, na íntegra, para alcance gratuito de todos(as), são fruto de nosso trabalho acadêmico, resultado das atividades de ensino e de pesquisa na graduação e pós-graduação.</p>
-                            <a target="_blank" href="http://editoriaemdebate.ufsc.br/catalogo" class="btn btn-danger">Catálogo</a>
+                            <a href="pg-catalogo.html" class="btn btn-danger">Catálogo</a>
                         </div>
                     </div>
 
@@ -367,8 +433,8 @@ editoriaemdebate@gmail.com
                             <h3 class="panel-title">Revista Eletrônica</h3>
                         </div>
                         <div class="panel-body">
-                            <p>A revista EM DEBATE, vinculada ao Laboratório de Sociologia do Trabalho (LASTRO) da UFSC, é uma revista acadêmica semestral, dedicada a divulgar e debater artigos, resenhas, dossiês, traduções, entrevistas, pesquisas e enfoques relacionados às suas áreas temáticas. Voltada para o aprimoramento de professores, estudantes e pesquisadores, procura enriquecer a produção do conhecimento em ciências humanas.</p>
-                            <a target="_blank" href="http://www.periodicos.ufsc.br/index.php/emdebate" class="btn btn-danger">Periódico</a>
+                            <p>A revista, vinculada ao Laboratório de Sociologia do Trabalho (LASTRO), é uma publicação semestral dedicada a divulgar e debater artigos, resenhas, dossiês, traduções, entrevistas, pesquisas e enfoques relacionados às suas áreas. Voltada para o aprimoramento de professores, estudantes e pesquisadores, procura enriquecer a produção do conhecimento.</p>
+                            <a href="pg-revista.html" class="btn btn-danger">Revista Eletrônica</a>
                         </div>
 
                     </div>
@@ -385,8 +451,8 @@ editoriaemdebate@gmail.com
                             <h3 class="panel-title">Galeria de Arte</h3>
                         </div>
                         <div class="panel-body">
-                            <p>A galeria virtual, incluindo as criaçõees usadas nas capas dos livros digitais e impressos, é aqui proposta como forma de divulgar a interação com outros autores, os da criação artística. São divulgadas obras de diversos artistas que procuram dialogar com a temática da Editoria Em Debate, em galerias online, fazendo com que a arte também seja apreciada no meio digital. Confira essa experiência que a ED oferece.</p>
-                            <a target="_blank" href="http://editoriaemdebate.ufsc.br/galeria" class="btn btn-danger">Galeria</a>
+                            <p>A galeria virtual, incluindo as criações estampadas na capa dos livros digitais e impressos, é aqui proposta como uma interação com outros autores, os da criação artística. São divulgadas obras e artistas que dialogam com a temática da Editoria Em Debate e, assim, sua arte também pode ser apreciada na web. Confira essa experiência de fruição estética que a ED oferece.</p>
+                            <a href="pg-galeria.html" class="btn btn-danger">Galeria</a>
                         </div>
                     </div>
 
@@ -403,7 +469,7 @@ editoriaemdebate@gmail.com
     </div>
 
     <footer> <span class="clearfix" >Email: <a href="mailto:editoriaemdebate@gmail.com">editoriaemdebate@gmail.com</a></span> <p class="twitter-botao"><a href="https://twitter.com/editoriaemdebate" class="twitter-follow-button" data-show-count="false" data-lang="pt">Seguir @editoriaemdebate</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p> <div class="fb-like" data-href="https://www.facebook.com/editoriaemdebate" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div></footer>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p> <div class="fb-like" data-href="https://www.facebook.com/editoriaemdebate" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div></footer>
 
         <!-- ends -->
 
