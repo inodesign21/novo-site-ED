@@ -14,6 +14,8 @@
         <link href="css/material-wfont.min.css" rel="stylesheet">
         <link href="css/min/css.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/social-button/zocial.css" />
+        <link rel="stylesheet" type="text/css" href="css/photoswipe/photoswipe.css" />
+        <link rel="stylesheet" type="text/css" href="css/photoswipe/default-skin/default-skin.css" />
         <!-- <link rel="stylesheet" href="css/normalize.css"> site -->
         <!-- <script src="js/modernizr.min.js"></script> site -->
     </head>
@@ -43,97 +45,291 @@
         </div>
 
         <div class="container fundo-container sample shadow-z-2">
-
-            <div class="apresenta text-center">
-                <a href="http://www.editoriaemdebate.ufsc.br"><img class="img-responsive" src="img/logo/logo.png" style="margin:0 auto;" /></a>
-                <div class="texto-apresenta">
-                    <a href="pg-catalogo.html">Catálogo de Livros</a>, <a href="pg-revista.html">Revista Eletrônica</a> e <a href="pg-galeria.html">Galeria Virtual</a>
-
-                </div>
-            </div>
-
-            <div class="apresenta-lancamentos">
-              <p><h3>Eventos de Lançamentos Anuais da ED</h3></p>
-                        <div class="panel-body">
-                   <ul class="nav nav-tabs" style="margin-bottom: 15px;">
-            <li><a href="#tab2011" data-toggle="tab">2011</a></li>
-            <li><a href="#tab2012" data-toggle="tab">2012</a></li>
-            <li><a href="#tab2013" data-toggle="tab">2013</a></li>
-            <li class="active"><a href="#tab2014" data-toggle="tab">2014</a></li>
-        </ul>
-
-        <div id="myTabContent" class="tab-content">
-
-            <div class="tab-pane fade" id="tab2011">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <div class="texto-apresenta">
-                    2011 - <a href="pg-catalogo.html">Leia os livros desta edição</a>, <a href="pg-revista.html">acesse a revista eletrônica</a> e <a href="pg-galeria.html">conheça a galeria de arte</a>
-                    <p>&nbsp</p>
-                </div>
-                      <img src="img/lancamentos/banner2011.jpg" alt="ED 2011">
-                        <img src="img/lancamentos/fotos2011.jpg" alt="ED 2011">
+           <div class="apresenta text-center">
+              <a href="http://www.editoriaemdebate.ufsc.br"><img class="img-responsive" src="img/logo/logo.png" style="margin:0 auto;" /></a>
+              <div class="texto-apresenta">
+                 <a href="pg-catalogo.html">Catálogo de Livros</a>, <a href="pg-revista.html">Revista Eletrônica</a> e <a href="pg-galeria.html">Galeria Virtual</a>
+              </div>
+           </div>
+           <div class="apresenta-lancamentos">
+              <p>
+              <h3>Eventos de Lançamentos Anuais da ED</h3>
+              </p>
+              <div class="panel-body">
+                 <ul class="nav nav-tabs" style="margin-bottom: 15px;">
+                    <li><a href="#tab2011" data-toggle="tab">2011</a></li>
+                    <li><a href="#tab2012" data-toggle="tab">2012</a></li>
+                    <li><a href="#tab2013" data-toggle="tab">2013</a></li>
+                    <li class="active"><a href="#tab2014" data-toggle="tab">2014</a></li>
+                 </ul>
+                 <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade" id="tab2011">
+                       <div class="panel panel-default">
+                          <div class="panel-body">
+                             <div class="texto-apresenta">
+                                2011 - <a href="pg-catalogo.html">Leia os livros desta edição</a>, <a href="pg-revista.html">acesse a revista eletrônica</a> e <a href="pg-galeria.html">conheça a galeria de arte</a>
+                                <p>&nbsp</p>
+                             </div>
+                             <img src="img/lancamentos/banner2011.jpg" alt="ED 2011" class="img-responsive">
+                             <img src="img/lancamentos/fotos2011.jpg" alt="ED 2011" class="img-responsive">
+                          </div>
+                       </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="tab-pane fade" id="tab2012">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <div class="texto-apresenta">
-                    2012 - <a href="pg-catalogo.html">Leia os livros desta edição</a>, <a href="pg-revista.html">acesse a revista eletrônica</a> e <a href="pg-galeria.html">conheça a galeria de arte</a>
-                    <p>&nbsp</p>
-                </div>
-                      <img src="img/lancamentos/banner2012.jpg" alt="ED 2012">
-                        <img src="img/lancamentos/fotos2012.jpg" alt="ED 2012">
+                    <div class="tab-pane fade" id="tab2012">
+                       <div class="panel panel-default">
+                          <div class="panel-body">
+                             <div class="texto-apresenta">
+                                2012 - <a href="pg-catalogo.html">Leia os livros desta edição</a>, <a href="pg-revista.html">acesse a revista eletrônica</a> e <a href="pg-galeria.html">conheça a galeria de arte</a>
+                                <p>&nbsp</p>
+                             </div>
+                             <img src="img/lancamentos/banner2012.jpg" alt="ED 2012" class="img-responsive">
+                             <img src="img/lancamentos/fotos2012.jpg" alt="ED 2012" class="img-responsive">
+                          </div>
+                       </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="tab-pane fade" id="tab2013">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <div class="texto-apresenta">
-                    2013 - <a href="pg-catalogo.html">Leia os livros desta edição</a>, <a href="pg-revista.html">acesse a revista eletrônica</a> e <a href="pg-galeria.html">conheça a galeria de arte</a>
-                    <p>&nbsp</p>
-                </div>
-                      <img src="img/lancamentos/banner2013.jpg" alt="ED 2013">
-                        <img src="img/lancamentos/fotos2013.jpg" alt="ED 2013">
+                    <div class="tab-pane fade" id="tab2013">
+                       <div class="panel panel-default">
+                          <div class="panel-body">
+                             <div class="texto-apresenta">
+                                2013 - <a href="pg-catalogo.html">Leia os livros desta edição</a>, <a href="pg-revista.html">acesse a revista eletrônica</a> e <a href="pg-galeria.html">conheça a galeria de arte</a>
+                                <p>&nbsp</p>
+                             </div>
+                             <img src="img/lancamentos/banner2013.jpg" alt="ED 2013" class="img-responsive">
+                             <img src="img/lancamentos/fotos2013.jpg" alt="ED 2013" class="img-responsive">
+                          </div>
+                       </div>
                     </div>
-                </div>
-            </div>
+                    <div class="tab-pane fade active in" id="tab2014">
+                       <div class="panel panel-default">
+                          <div class="panel-body">
+                             <div class="texto-apresenta">
+                                Editoria Em Debate - Lançamentos 2014 - 
+                                Livros - Revista - Galeria - 
+                                Dia 11/12 - Quinta-feira - 
+                                Local: UFSC - CFH - Mini Auditório - 
+                                Horário: 19:00 (Lançamento + Coquetel) - 
+                                www.editoriaemdebate.ufsc.br
+                                2014 - <a href="pg-catalogo.html">Leia os livros desta edição</a>, <a href="pg-revista.html">acesse a revista eletrônica</a> e <a href="pg-galeria.html">conheça a galeria de arte</a> 
+                                <p>&nbsp</p>
+                             </div>
+                             <h3>Fotos do evento de lançamento 2014 da ED</h3>
+                             <div style="text-align:center;">
+                                  <div class="my-simple-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-            <div class="tab-pane fade active in" id="tab2014">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <div class="texto-apresenta">
-                            ​Editoria Em Debate - Lançamentos 2014 - 
-Livros - Revista - Galeria - 
-Dia 11/12 - Quinta-feira - 
-Local: UFSC - CFH - Mini Auditório - 
-Horário: 19:00 (Lançamento + Coquetel) - 
-www.editoriaemdebate.ufsc.br
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (1).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(1).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 1</figcaption>
+                                    </figure>
 
-                    2014 - <a href="pg-catalogo.html">Leia os livros desta edição</a>, <a href="pg-revista.html">acesse a revista eletrônica</a> e <a href="pg-galeria.html">conheça a galeria de arte</a> 
-                    <p>&nbsp</p>
-                </div>
-                      <img src="img/lancamentos/banner2014.jpg" alt="ED 2014">
-                        <!-- <img src="img/lancamentos/fotos2014.jpg" alt="ED 2014"> -->
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (2).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(2).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (3).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(3).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (4).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(4).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (5).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(5).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (6).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(6).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (7).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(7).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (8).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(8).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (9).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(9).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (10).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(10).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (11).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(11).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (12).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(12).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (13).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(13).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (14).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(14).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (15).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(15).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (16).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(16).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 3</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (17).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(17).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 4</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (18).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(18).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+                                    <figure itemscope itemtype="http://schema.org/ImageObject">
+                                      <a href="img/fotos/2014/foto (19).jpg" itemprop="contentUrl" data-size="2048x1536">
+                                          <img src="img/fotos/2014/thumbs/foto-(19).jpg" itemprop="thumbnail" alt="Image description" />
+                                      </a>
+                                      <figcaption itemprop="caption description">Image caption 2</figcaption>
+                                    </figure>
+
+
+                                  </div>
+                              </div>
+
+                                
+                             <img src="img/lancamentos/banner2014.jpg" alt="ED 2014" class="img-responsive" style="margin: 40px 0 20px 0;">
+                          </div>
+                       </div>
                     </div>
-                </div>
-            </div>
-
+                 </div>
+              </div>
+           </div>
+           <hr>
         </div>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <div class="pswp__container">
+            <!-- don't modify these 3 pswp__item elements, data is added later on -->
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
           </div>
 
+        </div>
+
 </div>
-
-
-        <hr>        
-
-
-
-    </div>
 
     <footer> <span class="clearfix" >Email: <a href="mailto:editoriaemdebate@gmail.com">editoriaemdebate@gmail.com</a></span> <p class="twitter-botao"><a href="https://twitter.com/editoriaemdebate" class="twitter-follow-button" data-show-count="false" data-lang="pt">Seguir @editoriaemdebate</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p> <div class="fb-like" data-href="https://www.facebook.com/editoriaemdebate" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div></footer>
@@ -152,9 +348,13 @@ www.editoriaemdebate.ufsc.br
         <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+        <script src="js/photoswipe.min.js"></script>
+        <script src="js/photoswipe-ui-default.min.js"></script>
+
         <script src="js/min/script.min.js"></script>
         <script src="js/ripples.min.js"></script>
         <script src="js/material.min.js"></script>
+        
 
     </body>
 
